@@ -3,6 +3,8 @@
 import logging
 from time import sleep
 
+logging.basicConfig(level=logging.INFO)
+
 i = 0
 while(True):
 	i+=1
